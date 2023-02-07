@@ -41,3 +41,4 @@
      This will deploy all the resources which are defined in the script to the AWS account for which access keys were provided.
 
 > Note: Incase you would want to delete all created resources, `terraform destroy` will clean up all the resources created for you.
+> Note: In Backend.tf mention the bucket to store terraform state files.
