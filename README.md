@@ -1,14 +1,14 @@
-#Terraform Code for Deployment of Ec2 Instances
+# Terraform Code for Deployment of Ec2 Instances
 
-    This script deployes 4 Ec2 instances,
-      1) First for api server with publically exposed port(80) for api access with help of public subnet.
-      2) Second Instance for Service#1 with private subnet.
-      3) Third Instance for service#2 with private subnet.
-      4) Fourth instance for Nats server.
+This script deployes 4 Ec2 instances,
+  1) First for api server with publically exposed port(80) for api access with help of public subnet.
+  2) Second Instance for Service#1 with private subnet.
+  3) Third Instance for service#2 with private subnet.
+  4) Fourth instance for Nats server.
 
 > Note: All four instances's port 80 is accesible by each other instances for communication between them.
 
-##To Run the script:
+## To Run the script:
 
 1. Prerequisite
 
